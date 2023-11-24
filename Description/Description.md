@@ -14,7 +14,7 @@ We will explain following Words in Detail on our static part:
 Also we will tell you what you can do to improve your Website. This will be found under the section: 
 
 ## Dynamic Part
-We will build a website where users can enter a website domain and then receive information about the website. For example, the HTTP status code or website traffic will be measured and presented. We may also use diagrams to provide users with a visual representation of the information.
+We plan to enhance each individual bullet point in the static section with dynamic elements. As an illustration, for the Scroll Tracking feature, we will incorporate a scrolling analysis. Upon reaching the end of the site, you'll be able to discern where you spent the majority of your time and identify which elements you chose to skip.
 
 ## Milestones
 - Research finished
