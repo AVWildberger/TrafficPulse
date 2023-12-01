@@ -1,4 +1,4 @@
-# What is Geotargeting and why it`s an important Advertising Strategy?
+# What is geotargeting and why it`s an important advertising strategy?
 
 Geotargeting works by detecting users' locations using tools like GPS or cell towers. Geotargeting apps, such as Lieferando or Uber Eats, use real-time 
 location data to customize listings for a better consumer experience. Google employs geotargeting in search results, organizing them based on the user's location. 
