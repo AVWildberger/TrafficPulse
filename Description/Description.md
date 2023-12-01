@@ -26,7 +26,7 @@ We plan to enhance each individual bullet point in the static section with dynam
 - Publishing finished
 
 ## Wireframe Diagram
-![](diagram.svg)
+![](diagram.png)
 
 ## Project Members
 Project Members:
