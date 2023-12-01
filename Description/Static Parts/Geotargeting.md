@@ -1,6 +1,6 @@
 What Is Geotargeting and Why It`s an Important Advertising Strategy?
 
-Geotargeting works by detecting users' locations using tools like GPS or cell towers. Geotargeting apps, such as Deliveroo or Just Eat, use real-time 
+Geotargeting works by detecting users' locations using tools like GPS or cell towers. Geotargeting apps, such as Lieferando or Uber Eats, use real-time 
 location data to customize listings for a better consumer experience. Google employs geotargeting in search results, organizing them based on the user's location. 
 Geotargeting software enables reaching the target audience by allowing advertising to access different datasets and targeting tools. Three examples are:
 
