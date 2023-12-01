@@ -2,7 +2,8 @@
 
 Geotargeting works by detecting users' locations using tools like GPS or cell towers. Geotargeting apps, such as Lieferando or Uber Eats, use real-time 
 location data to customize listings for a better consumer experience. Google employs geotargeting in search results, organizing them based on the user's location. 
-Geotargeting software enables reaching the target audience by allowing advertising to access different datasets and targeting tools. Three examples are:
+Geotargeting software enables reaching the target audience by allowing advertising to access different datasets and targeting tools. 
+Three examples are:
 
 ## Audience Targeting:
 Identify key demographics based on core behaviors. For instance, create targeted online ads for people who visited a specific brand, category, or location within a fixed period. 
