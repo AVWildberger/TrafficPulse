@@ -1,4 +1,4 @@
-# Color Palettes
+# Color Palette
 
 ![](LightBlue.png) Light Blue: 1B98E0
 ![](Red.png) Red: BD1B0F
