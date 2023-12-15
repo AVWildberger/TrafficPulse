@@ -4,15 +4,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TrafficPulse</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js"></script>
   </head>
-  <body>
+  <body>  
     <div class="tab">
       <button class="tablinks" onclick="openTab(event, 'scroll_tracking')">Scroll Tracking</button>
-      <button class="tablinks" onclick="openTab(event, 'Tab 2')">Paris</button>
-      <button class="tablinks" onclick="openTab(event, 'Tab 3')">Tokyo</button>
+      <button class="tablinks" onclick="openTab(event, 'click_through_analytics')">Click Through Analytics</button>
+      <button class="tablinks" onclick="openTab(event, 'geotargeting')">Geotargeting</button>
+      <button class="tablinks" onclick="openTab(event, 'seo_sea')">SEO & SEA</button>
     </div>
 
-    <div class="scroll_tracking">
+    <div class="tabcontent" id="scroll_tracking">
       <h1>Scroll Tracking Analysis</h1>
       <h2>Definition</h2>
       <p>
@@ -71,7 +74,7 @@
       </p>
     </div>
 
-    <div class="click_through_analytics">
+    <div class="tabcontent" id="click_through_analytics">
       <h1>Click Through Analytics</h1>
       <h2>Definition</h2>
       <p>
@@ -119,7 +122,7 @@
         A higher CTR generally indicates that a higher percentage of people who saw the ad or link took the desired action, whether it's clicking on the link, visiting a website, or making a purchase. It is an important metric for advertisers and marketers to assess the performance and relevance of their online campaigns.
       </p>
     </div>
-    <div class="geotargeting">
+    <div class="tabcontent" id="geotargeting">
       <h1>Geotargeting</h1>
       <h2>Definition</h2>
       <p>
@@ -179,7 +182,7 @@
       </p>
     </div>
 
-    <div class="SEO & SEA">
+    <div class="tabcontent" id="seo_sea">
       <h1>SEO and SEA</h1>
       
       <h2>Definition</h2>
