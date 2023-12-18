@@ -38,8 +38,6 @@ body {
 /* Style the tab content */
 .tabcontent {
   float: left;
-  padding: 0vw 1vw;
-  width: 70%;
+  padding: 0vw 1vw 0vw 16vw;
   border-left: none;
-  height: 300px;
 }
