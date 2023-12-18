@@ -1,246 +1,306 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>TrafficPulse</title>
-    <link rel="stylesheet" href="styles.css">
-    <script src="scripts.js"></script>
-  </head>
-  <body>  
-    <div class="tab">
-      <button class="tablinks" onclick="openTab(event, 'scroll_tracking')">Scroll Tracking</button>
-      <button class="tablinks" onclick="openTab(event, 'click_through_analytics')">Click Through Analytics</button>
-      <button class="tablinks" onclick="openTab(event, 'geotargeting')">Geotargeting</button>
-      <button class="tablinks" onclick="openTab(event, 'seo_sea')">SEO & SEA</button>
-    </div>
 
-    <div class="tabcontent" id="scroll_tracking">
-      <h1>Scroll Tracking Analysis</h1>
-      <h2>Definition</h2>
-      <p>
-        Scroll tracking is a method used to analyze user behavior on a website,
-        specifically in terms of scrolling through the content. This technique
-        allows website owners and marketers to understand how visitors interact
-        with their site, particularly how far they scroll down the page.
-      </p>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TrafficPulse</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="scripts.js"></script>
+</head>
 
-      <h2>Key Aspects</h2>
-      <ol>
-        <li>
-          <b>Capturing Scroll Behavior: </b>
-          By implementing scroll tracking code on a website, you can track how
-          far visitors scroll down the page. This is typically done using
-          JavaScript that captures the user's scroll position.
-        </li>
-
-        <li>
-          <b>Attention Analysis: </b>
-          Scroll tracking helps understand which parts of the webpage receive
-          the most attention. Sections of the page that are scrolled frequently
-          or infrequently can provide insights into the effectiveness of
-          content, design, and layout.
-        </li>
-
-        <li>
-          <b>Optimizing Page Structure: </b>
-          Insights gained from scroll tracking can be used to optimize the page
-          structure. If important content is not viewed frequently enough, it
-          may indicate a need to place it higher on the page. You could also
-          place Ads on the most frequent looked at places.
-        </li>
-
-        <li>
-          <b>Customizing Call-to-Action (CTA): </b>
-          Scroll tracking can also help understand where visitors typically are
-          on the page when making decisions. This information can be used to
-          place call-to-action elements in positions where conversion
-          probability is higher.
-        </li>
-
-        <li>
-          <b>Improving User Experience: </b>
-          Analyzing scroll behavior can provide insights into whether visitors
-          are having difficulty navigating through the content. As a result,
-          improvements to user experience can be made.
-        </li>
-      </ol>
-
-      <h2>Closing Words</h2>
-      <p>
-        It's important to note that the implementation of scroll tracking should
-        comply with privacy policies. It should be transparent about what data
-        is being collected and how it will be used.
-      </p>
-    </div>
-
-    <div class="tabcontent" id="click_through_analytics">
-      <h1>Click Through Analytics</h1>
-      <h2>Definition</h2>
-      <p>
-        Click-Through Rate (CTR) is a metric used in online advertising and marketing to measure the effectiveness of an online campaign for a particular website, advertisement, or link. It is expressed as a percentage and is calculated by dividing the number of clicks on a specific element (such as an ad or link) by the number of times that element was presented (impressions), and then multiplying the result by 100.
-      </p>
-
-      <h2>Formula</h2>
-        The formula for the Click-Through Rate is:
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <mstyle mathsize="1.4em">
-            <mi>C</mi><mi>T</mi><mi>R</mi><mo>=</mo>
-            <mfrac>
-              <mrow>
-                <mi>N</mi><mi>u</mi><mi>m</mi><mi>b</mi><mi>e</mi><mi>r</mi>
-                <mo>&#xA0;</mo><mi>0</mi><mi>f</mi><mo>&#xA0;</mo><mi>C</mi><mi>l</mi>
-                <mi>i</mi><mi>c</mi><mi>k</mi><mi>s</mi>
-              </mrow>
-              <mrow>
-                <mi>N</mi><mi>u</mi><mi>m</mi><mi>b</mi><mi>e</mi><mi>r</mi>
-                <mo>&#xA0;</mo><mi>0</mi><mi>f</mi><mo>&#xA0;</mo><mi>I</mi><mi>m</mi>
-                <mi>p</mi><mi>r</mi><mi>e</mi><mi>s</mi><mi>s</mi><mi>i</mi><mi>0</mi><mi>n</mi><mi>s</mi>
-              </mrow>
-            </mfrac>
-            <mo>&#xd7;</mo><mn>100</mn><mo>%</mo>
-          </mstyle>
-        </math>
-        
-        <br><br>
-        For example, if an ad receives 500 clicks and was displayed 10,000 times, the CTR would be:<br>
-        <math xmlns="http://www.w3.org/1998/Math/MathML">
-          <mstyle mathsize="1.4em">
-            <mi>C</mi><mi>T</mi><mi>R</mi><mo>=</mo>
-            <mfrac>
-              <mn>500</mn>
-              <mn>10000</mn>
-            </mfrac>
-            <mo>&#xd7;</mo><mn>100</mn><mo>%</mo>
-            <mo>=</mo><mn>5</mn><mo>%</mo>
-          </mstyle>
-        </math>
-        
-      <h2>What CTR shows</h2>
-      <p>
-        A higher CTR generally indicates that a higher percentage of people who saw the ad or link took the desired action, whether it's clicking on the link, visiting a website, or making a purchase. It is an important metric for advertisers and marketers to assess the performance and relevance of their online campaigns.
-      </p>
-    </div>
-    <div class="tabcontent" id="geotargeting">
-      <h1>Geotargeting</h1>
-      <h2>Definition</h2>
-      <p>
-        Geotargeting works by detecting users' locations using tools like GPS or cell towers. 
-        Geotargeting apps, such as Lieferando or Uber Eats, use real-time location data 
-        to customize listings for a better consumer experience. Google employs geotargeting 
-        in search results, organizing them based on the user's location. 
-        Geotargeting software enables reaching the target audience by allowing 
-        advertising to access different datasets and targeting tools.
-      </p>
-
-      <h2>Key Aspects</h2>
-      <ol>
-        <li>
-          <b>Audience Targeting: </b>
-          Identify key demographics based on core behaviors. 
-          For instance, create targeted online ads for people 
-          who visited a specific brand, category, or location within a fixed period.
-          Understand customer behavior to make data-driven marketing decisions.
-        </li>
-
-        <li>
-          <b>Location Targeting: </b>
-          Gain insight into consumer behavior and movement in specific regions. 
-          On-site mobile location targeting provides real-time insight 
-          into customers' whereabouts, allowing tailored messaging. 
-          Observe collective behaviors in neighborhoods to develop viable promotions.
-        </li>
-
-        <li>
-          <b>Weather Targeting: </b>
-          Adapt messaging to real-time conditions, effective in out-of-home (OOH) advertising. 
-          Interactive displays can be adjusted based on weather shifts to optimize 
-          messaging and drive increased brand interaction. Display OOH messaging at specific times 
-          to target customers when they're most likely to engage.
-        </li>
-
-        <li>
-          <b>Issues with User Localization: </b>
-          Despite several methods of location determination (IP, GPS, etc.), it is still not possible 
-          to definitively identify or narrow down a user's location. 
-          Those who cloak their IP, use VPNs, or employ proxy servers remain relatively anonymous regarding their location on the internet.
-          This, for instance, affects the functionality of a search engine, which can no longer incorporate location into its search results. 
-          The relevance of geotargeting for search engine optimization (SEO) is significant. Local SEO focuses on optimizing for 
-          local and regional businesses or their websites. Geotargeting plays a crucial role in this domain, allowing 
-          the linkage of these websites with user location data. To make user location data usable, one must first establish their own location definitively. 
-          For this purpose, options like listing on Google+ Local or Google Maps can be suitable.
-        </li>
-      </ol>
-
-      <h2>Closing Words</h2>
-      <p>
-        In conclusion, geotargeting is a key strategy for websites, using location data to tailor user experiences. 
-        It refines content based on audience demographics, location, and even weather conditions. Despite challenges, 
-        geotargeting is essential for effective local SEO. Essentially, it's a powerful tool shaping how websites connect 
-        with users in a more personalized and engaging manner.
-      </p>
-    </div>
-
-    <div class="tabcontent" id="seo_sea">
-      <h1>SEO and SEA</h1>
-      
-      <h2>Definition</h2>
-      <p>
-        Search Engine Optimization (SEO) and Search Engine Advertising (SEA) are crucial strategies in the field of Search Engine Marketing. 
-        They play a significant role in online marketing by helping to drive more traffic to a website and improve its ranking in search engines.
-      </p>
-      
-      <h2>Key Aspects</h2>
-      <p>
-          <h3>SEO</h3>
-          SEO aims to improve the visibility of a website in organic search results. 
-          It includes measures to generate organic traffic and optimize a website's ranking in search results. 
-          Well-readable, target group-specific, and informative content can lead to a better placement in search results.
-          
-          <h3>SEA</h3>
-          SEA refers to paid advertisements in the search results of search engines. 
-          It is a short-term strategy where companies pay for advertisements to gain immediate visibility. 
-          With SEA measures, ROI models for clicks on your website can be created and optimized.
-          
-          <h3>SEO & SEA: A Dual Strategy</h3>
-          The combination of SEO and SEA offers a comprehensive dual strategy that covers both short-term and long-term goals.
-           SEA delivers immediate results in the form of paid traffic, while SEO works in the background to build and maintain organic traffic.
-          
-           <h3>Key Factors for a Successful SEA & SEO Strategy</h3>
-          <ul>
-              <li>
-                <strong>Relevance and quality of the ad</strong>: 
-                The ads should be relevant to the users' search queries and provide high-quality information.
-              </li>
-
-              <li>
-                <strong>Relevance of the landing page</strong>:
-                The landing page should be relevant to the ad and the users' search queries.
-              </li>
-
-              <li>
-                <strong>Expected click-through rate</strong>:
-                The ads should be designed to achieve a high click-through rate.
-              </li>
-
-              <li>
-                <strong>Bid price</strong>: 
-                The price you bid for the ads can influence the placement of your ads.
-              </li>
-
-              <li>
-                <strong>Optimization during the campaign</strong>: 
-                Since all campaigns are measurable at any time, there is optimization potential already during an ongoing SEA campaign.
-              </li>
-          </ul>
-      </p>
-
-      <h2>Closing Words</h2>
-      <p>
-        By combining SEO and SEA, companies can link quick and long-term online marketing measures and generate higher overall revenues. 
-        This allows for a significantly larger reach and simultaneously strengthens brand building.
-      </p>
+<body>
+  <div class="tab">
+    <button class="tablinks" onclick="openTab(event, 'scroll_tracking')">Scroll Tracking</button>
+    <button class="tablinks" onclick="openTab(event, 'click_through_analytics')">Click Through Analytics</button>
+    <button class="tablinks" onclick="openTab(event, 'geotargeting')">Geotargeting</button>
+    <button class="tablinks" onclick="openTab(event, 'seo_sea')">SEO & SEA</button>
   </div>
-  
-  </body>
+
+  <div class="tabcontent" id="scroll_tracking">
+    <h1>Scroll Tracking Analysis</h1>
+    <h2>Definition</h2>
+    <p>
+      Scroll tracking is a method used to analyze user behavior on a website,
+      specifically in terms of scrolling through the content. This technique
+      allows website owners and marketers to understand how visitors interact
+      with their site, particularly how far they scroll down the page.
+    </p>
+
+    <h2>Key Aspects</h2>
+    <ol>
+      <li>
+        <b>Capturing Scroll Behavior: </b>
+        By implementing scroll tracking code on a website, you can track how
+        far visitors scroll down the page. This is typically done using
+        JavaScript that captures the user's scroll position.
+      </li>
+
+      <li>
+        <b>Attention Analysis: </b>
+        Scroll tracking helps understand which parts of the webpage receive
+        the most attention. Sections of the page that are scrolled frequently
+        or infrequently can provide insights into the effectiveness of
+        content, design, and layout.
+      </li>
+
+      <li>
+        <b>Optimizing Page Structure: </b>
+        Insights gained from scroll tracking can be used to optimize the page
+        structure. If important content is not viewed frequently enough, it
+        may indicate a need to place it higher on the page. You could also
+        place Ads on the most frequent looked at places.
+      </li>
+
+      <li>
+        <b>Customizing Call-to-Action (CTA): </b>
+        Scroll tracking can also help understand where visitors typically are
+        on the page when making decisions. This information can be used to
+        place call-to-action elements in positions where conversion
+        probability is higher.
+      </li>
+
+      <li>
+        <b>Improving User Experience: </b>
+        Analyzing scroll behavior can provide insights into whether visitors
+        are having difficulty navigating through the content. As a result,
+        improvements to user experience can be made.
+      </li>
+    </ol>
+
+    <h2>Closing Words</h2>
+    <p>
+      It's important to note that the implementation of scroll tracking should
+      comply with privacy policies. It should be transparent about what data
+      is being collected and how it will be used.
+    </p>
+  </div>
+
+  <div class="tabcontent" id="click_through_analytics">
+    <h1>Click Through Analytics</h1>
+    <h2>Definition</h2>
+    <p>
+      Click-Through Rate (CTR) is a metric used in online advertising and marketing to measure the effectiveness of an
+      online campaign for a particular website, advertisement, or link. It is expressed as a percentage and is
+      calculated by dividing the number of clicks on a specific element (such as an ad or link) by the number of times
+      that element was presented (impressions), and then multiplying the result by 100.
+    </p>
+
+    <h2>Formula</h2>
+    The formula for the Click-Through Rate is:
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mstyle mathsize="1.4em">
+        <mi>C</mi>
+        <mi>T</mi>
+        <mi>R</mi>
+        <mo>=</mo>
+        <mfrac>
+          <mrow>
+            <mi>N</mi>
+            <mi>u</mi>
+            <mi>m</mi>
+            <mi>b</mi>
+            <mi>e</mi>
+            <mi>r</mi>
+            <mo>&#xA0;</mo>
+            <mi>0</mi>
+            <mi>f</mi>
+            <mo>&#xA0;</mo>
+            <mi>C</mi>
+            <mi>l</mi>
+            <mi>i</mi>
+            <mi>c</mi>
+            <mi>k</mi>
+            <mi>s</mi>
+          </mrow>
+          <mrow>
+            <mi>N</mi>
+            <mi>u</mi>
+            <mi>m</mi>
+            <mi>b</mi>
+            <mi>e</mi>
+            <mi>r</mi>
+            <mo>&#xA0;</mo>
+            <mi>0</mi>
+            <mi>f</mi>
+            <mo>&#xA0;</mo>
+            <mi>I</mi>
+            <mi>m</mi>
+            <mi>p</mi>
+            <mi>r</mi>
+            <mi>e</mi>
+            <mi>s</mi>
+            <mi>s</mi>
+            <mi>i</mi>
+            <mi>0</mi>
+            <mi>n</mi>
+            <mi>s</mi>
+          </mrow>
+        </mfrac>
+        <mo>&#xd7;</mo>
+        <mn>100</mn>
+        <mo>%</mo>
+      </mstyle>
+    </math>
+
+    <br><br>
+    For example, if an ad receives 500 clicks and was displayed 10,000 times, the CTR would be:<br>
+    <math xmlns="http://www.w3.org/1998/Math/MathML">
+      <mstyle mathsize="1.4em">
+        <mi>C</mi>
+        <mi>T</mi>
+        <mi>R</mi>
+        <mo>=</mo>
+        <mfrac>
+          <mn>500</mn>
+          <mn>10000</mn>
+        </mfrac>
+        <mo>&#xd7;</mo>
+        <mn>100</mn>
+        <mo>%</mo>
+        <mo>=</mo>
+        <mn>5</mn>
+        <mo>%</mo>
+      </mstyle>
+    </math>
+
+    <h2>What CTR shows</h2>
+    <p>
+      A higher CTR generally indicates that a higher percentage of people who saw the ad or link took the desired
+      action, whether it's clicking on the link, visiting a website, or making a purchase. It is an important metric for
+      advertisers and marketers to assess the performance and relevance of their online campaigns.
+    </p>
+  </div>
+  <div class="tabcontent" id="geotargeting">
+    <h1>Geotargeting</h1>
+    <h2>Definition</h2>
+    <p>
+      Geotargeting works by detecting users' locations using tools like GPS or cell towers.
+      Geotargeting apps, such as Lieferando or Uber Eats, use real-time location data
+      to customize listings for a better consumer experience. Google employs geotargeting
+      in search results, organizing them based on the user's location.
+      Geotargeting software enables reaching the target audience by allowing
+      advertising to access different datasets and targeting tools.
+    </p>
+
+    <h2>Key Aspects</h2>
+    <ol>
+      <li>
+        <b>Audience Targeting: </b>
+        Identify key demographics based on core behaviors.
+        For instance, create targeted online ads for people
+        who visited a specific brand, category, or location within a fixed period.
+        Understand customer behavior to make data-driven marketing decisions.
+      </li>
+
+      <li>
+        <b>Location Targeting: </b>
+        Gain insight into consumer behavior and movement in specific regions.
+        On-site mobile location targeting provides real-time insight
+        into customers' whereabouts, allowing tailored messaging.
+        Observe collective behaviors in neighborhoods to develop viable promotions.
+      </li>
+
+      <li>
+        <b>Weather Targeting: </b>
+        Adapt messaging to real-time conditions, effective in out-of-home (OOH) advertising.
+        Interactive displays can be adjusted based on weather shifts to optimize
+        messaging and drive increased brand interaction. Display OOH messaging at specific times
+        to target customers when they're most likely to engage.
+      </li>
+
+      <li>
+        <b>Issues with User Localization: </b>
+        Despite several methods of location determination (IP, GPS, etc.), it is still not possible
+        to definitively identify or narrow down a user's location.
+        Those who cloak their IP, use VPNs, or employ proxy servers remain relatively anonymous regarding their location
+        on the internet.
+        This, for instance, affects the functionality of a search engine, which can no longer incorporate location into
+        its search results.
+        The relevance of geotargeting for search engine optimization (SEO) is significant. Local SEO focuses on
+        optimizing for
+        local and regional businesses or their websites. Geotargeting plays a crucial role in this domain, allowing
+        the linkage of these websites with user location data. To make user location data usable, one must first
+        establish their own location definitively.
+        For this purpose, options like listing on Google+ Local or Google Maps can be suitable.
+      </li>
+    </ol>
+
+    <h2>Closing Words</h2>
+    <p>
+      In conclusion, geotargeting is a key strategy for websites, using location data to tailor user experiences.
+      It refines content based on audience demographics, location, and even weather conditions. Despite challenges,
+      geotargeting is essential for effective local SEO. Essentially, it's a powerful tool shaping how websites connect
+      with users in a more personalized and engaging manner.
+    </p>
+  </div>
+
+  <div class="tabcontent" id="seo_sea">
+    <h1>SEO and SEA</h1>
+
+    <h2>Definition</h2>
+    <p>
+      Search Engine Optimization (SEO) and Search Engine Advertising (SEA) are crucial strategies in the field of Search
+      Engine Marketing.
+      They play a significant role in online marketing by helping to drive more traffic to a website and improve its
+      ranking in search engines.
+    </p>
+
+    <h2>Key Aspects</h2>
+    <p>
+    <h3>SEO</h3>
+    SEO aims to improve the visibility of a website in organic search results.
+    It includes measures to generate organic traffic and optimize a website's ranking in search results.
+    Well-readable, target group-specific, and informative content can lead to a better placement in search results.
+
+    <h3>SEA</h3>
+    SEA refers to paid advertisements in the search results of search engines.
+    It is a short-term strategy where companies pay for advertisements to gain immediate visibility.
+    With SEA measures, ROI models for clicks on your website can be created and optimized.
+
+    <h3>SEO & SEA: A Dual Strategy</h3>
+    The combination of SEO and SEA offers a comprehensive dual strategy that covers both short-term and long-term goals.
+    SEA delivers immediate results in the form of paid traffic, while SEO works in the background to build and maintain
+    organic traffic.
+
+    <h3>Key Factors for a Successful SEA & SEO Strategy</h3>
+    <ul>
+      <li>
+        <strong>Relevance and quality of the ad</strong>:
+        The ads should be relevant to the users' search queries and provide high-quality information.
+      </li>
+
+      <li>
+        <strong>Relevance of the landing page</strong>:
+        The landing page should be relevant to the ad and the users' search queries.
+      </li>
+
+      <li>
+        <strong>Expected click-through rate</strong>:
+        The ads should be designed to achieve a high click-through rate.
+      </li>
+
+      <li>
+        <strong>Bid price</strong>:
+        The price you bid for the ads can influence the placement of your ads.
+      </li>
+
+      <li>
+        <strong>Optimization during the campaign</strong>:
+        Since all campaigns are measurable at any time, there is optimization potential already during an ongoing SEA
+        campaign.
+      </li>
+    </ul>
+    </p>
+
+    <h2>Closing Words</h2>
+    <p>
+      By combining SEO and SEA, companies can link quick and long-term online marketing measures and generate higher
+      overall revenues.
+      This allows for a significantly larger reach and simultaneously strengthens brand building.
+    </p>
+  </div>
+
+</body>
+
 </html>

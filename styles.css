@@ -11,6 +11,7 @@ body {
   background-color: #f1f1f1;
   width: 15vw;
   height: 100vh;
+  position: fixed;
 }
 
 /* Style the buttons that are used to open the tab content */
@@ -37,8 +38,7 @@ body {
 /* Style the tab content */
 .tabcontent {
   float: left;
-  padding: 0vw 1vw;
-  width: 70%;
+  padding: 0vw 1vw 0vw 16vw;
   border-left: none;
-  height: 300px;
+  display: none;
 }
