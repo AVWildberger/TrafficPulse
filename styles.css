@@ -40,4 +40,5 @@ body {
   float: left;
   padding: 0vw 1vw 0vw 16vw;
   border-left: none;
+  display: none;
 }
