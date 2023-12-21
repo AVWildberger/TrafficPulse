@@ -1,29 +1,29 @@
-Die Conversion Rate (auch Konversionsrate, Konvertierungsrate oder Umwandlungsrate) ist ein KPI aus dem Online Marketing. Sie zeigt das Verhältnis der Besucher einer Website zu Conversions. Die Conversion Rate wird in Prozent angegeben. Die Conversion muss nicht zwingend ein Kauf oder eine Transaktion sein. Jedes zuvor definierte und erreichte Ziel kann als Conversion zählen. Die Conversion Rate kann demnach auch das Verhältnis von Visits (Besuchen) zu erfolgten Downloads oder Newsletteranmeldungen widerspiegeln. Für die CRO (Conversion-Rate-Optimierung) gehört das Messen von Kunden im Verhältnis zu den erfolgten Conversions zu den wichtigsten Kennzahlen. Die CRO ist meist Teil der SEO (Suchmaschinenoptimierung). Sie kann die Leadgenerierung, die Umsatz- sowie die Absatzzahlen verbessern.
+"The conversion rate (also known as conversion rate or conversion rate) is a KPI in online marketing. It indicates the ratio of website visitors to conversions. The conversion rate is expressed as a percentage. The conversion does not necessarily have to be a purchase or transaction; any previously defined and achieved goal can count as a conversion. Therefore, the conversion rate can also reflect the ratio of visits to completed downloads or newsletter sign-ups. For Conversion Rate Optimization (CRO), measuring customers in relation to completed conversions is one of the key metrics. CRO is often part of SEO (search engine optimization) and can improve lead generation, revenue, and sales figures.
 
-Definition Conversion Rate:
+Definition of Conversion Rate:
 
-Die Conversion Rate gibt das Verhältnis von Visits/Klicks zu erzielten Conversions an, wobei Conversions die Umwandlung von Interessenten in Kunden oder Käufer darstellen, etwa durch Käufe oder Downloads.
+The conversion rate represents the ratio of visits/clicks to achieved conversions, where conversions are the transformation of prospects into customers or buyers, such as through purchases or downloads.
 
-Berechnung der Conversion Rate:
+Calculation of the Conversion Rate:
 
-Grundsätzlich wird die Conversion Rate durch die Anzahl der Conversions geteilt durch die Anzahl der Impressionen berechnet, zum Beispiel:
+In general, the conversion rate is calculated by dividing the number of conversions by the number of impressions, for example:
 
-100 Conversions / 1000 Impressionen = 10% Conversion Rate
+100 Conversions / 1000 Impressions = 10% Conversion Rate
 
-Diese Methode kann jedoch ungenau sein, da automatisierte Impressionen durch Bots und wiederholte Seitenaufrufe durch denselben User einbezogen werden. Für eine präzisere Berechnung empfiehlt es sich, mit Unique Visitors oder Sessions zu arbeiten und Cookies zur genauen Zählung zu verwenden.
+However, this method can be inaccurate, as automated impressions by bots and repeated page views by the same user may be included. For a more accurate calculation, it is recommended to work with unique visitors or sessions and use cookies for precise counting.
 
-Optimierung der Conversion Rate:
+Optimizing the Conversion Rate:
 
-Die allgemeine Annahme unter Online-Marketing-Experten im E-Commerce liegt bei einer durchschnittlichen Conversion Rate von 1%, während erfolgreiche Online-Shops oft knapp 10% erreichen. Die Höhe der Conversion Rate hängt von Faktoren wie Produktart, Preisen und Saison ab. Ein Beispiel verdeutlicht, dass ein Shop für günstige Elektronikartikel eine höhere Conversion Rate haben kann als ein Shop für teure Sporträder.
+The general assumption among online marketing experts in e-commerce is an average conversion rate of 1%, while successful online shops often reach nearly 10%. The conversion rate depends on factors such as the type of product, prices, and season. For example, a shop selling inexpensive electronics may have a higher conversion rate than a shop selling expensive sports bicycles.
 
-Faktoren, die die Conversion Rate beeinträchtigen können:
+Factors that can affect the Conversion Rate:
 
-Zu wenige Bezahlmöglichkeiten, komplizierte Anmeldevorgänge, unpassende SEA-Maßnahmen, unsicher wirkender Bestellvorgang, technische Probleme, ungünstig platzierte Buttons und weitere Faktoren können die Conversion Rate negativ beeinflussen.
+Too few payment options, complicated registration processes, inappropriate SEA (search engine advertising) measures, an insecure-looking ordering process, technical issues, poorly placed buttons, and other factors can negatively impact the conversion rate.
 
-Mobile User Experience und Conversion Rate:
+Mobile User Experience and Conversion Rate:
 
-Mit zunehmenden Zugriffen über mobile Endgeräte wird ein nicht mobil-freundlicher Shop mit einer Verschlechterung seiner Conversion Rates konfrontiert. Die mobile Conversion Rate von Adwords im Jahr 2018 lag durchschnittlich bei 3,48% im Google-Suchnetzwerk und 0,72% im Displaynetzwerk. Mobile Leads erfolgen vorwiegend über Smartphone-Zugriffe, während die Leads-to-Customer-Conversion Rate bei Tablets höher ist.
+With increasing access via mobile devices, a non-mobile-friendly shop faces a deterioration of its conversion rates. The mobile conversion rate of Adwords in 2018 averaged 3.48% in the Google Search Network and 0.72% in the Display Network. Mobile leads primarily come from smartphone access, while the leads-to-customer conversion rate is higher on tablets.
 
-Weitere wichtige Kennzahlen:
+Other important metrics:
 
-Die Conversion Rate sollte nicht isoliert betrachtet werden. Umsatz- und Gewinnzahlen sowie weitere Kennzahlen wie der ROI und die Cash Conversion Rate spielen eine entscheidende Rolle für die Erfolgsmessung in Unternehmen.
+The conversion rate should not be considered in isolation. Revenue and profit figures, as well as other metrics such as ROI (return on investment) and the cash conversion rate, play a crucial role in measuring success in businesses."
