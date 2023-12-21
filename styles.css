@@ -44,3 +44,9 @@ body {
   border-left: none;
   display: none;
 }
+
+#start_page {
+  float: left;
+  padding: 0vw 1vw 0vw 16vw;
+  border-left: none;
+}
