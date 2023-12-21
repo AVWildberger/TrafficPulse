@@ -5,6 +5,11 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+img {
+  /* transform: scale(0.5); */
+  width: 60vw;
+  text-align: center;
+}
 
 /* Style the tab */
 .tab {
