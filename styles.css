@@ -54,7 +54,8 @@ img {
 }
 
 #start_page {
-  float: left;
-  padding: 0vw 1vw 0vw 16vw;
-  border-left: none;
+  padding-left: 15vw;
+  padding-top: 3vh;
+  display: flex;
+  justify-content: center;
 }
