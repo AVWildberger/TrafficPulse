@@ -33,6 +33,9 @@ img {
   text-align: left;
   cursor: pointer;
   transition: 0.3s;
+
+  font-family: 'Rowdies', sans-serif;
+  font-size: larger;
 }
 
 /* Change background color of buttons on hover */
