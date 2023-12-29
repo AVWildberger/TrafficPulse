@@ -18,4 +18,9 @@ function openTab(evt, tab) {
     document.getElementById(tab).style.display = "block";
     evt.currentTarget.className += " active";
     document.getElementById("start_page").style.display ="none";
+
+    tab = document.getElementsByClassName("tab")
+    for (i = 0; i < tab.length; i++) {
+      tab[i].style.display = "block";
+    }
   }

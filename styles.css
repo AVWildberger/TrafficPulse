@@ -19,6 +19,7 @@ img {
   width: 15vw;
   height: 100vh;
   position: fixed;
+  display: none;
 }
 
 /* Style the buttons that are used to open the tab content */
@@ -54,8 +55,11 @@ img {
 }
 
 #start_page {
-  padding-left: 15vw;
-  padding-top: 3vh;
+  padding: 3vh;
   display: flex;
   justify-content: center;
+}
+
+#start_page img{
+  width: 20vw;
 }
