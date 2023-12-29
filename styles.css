@@ -63,3 +63,47 @@ img {
 #start_page img{
   width: 20vw;
 }
+
+startpageButton {
+  font-family: 'Rowdies', sans-serif;
+  font-size: larger;
+}
+
+a {
+  cursor: pointer;
+}
+
+.start-page-button {
+  position: absolute;
+  width: 15.6rem;
+}
+
+.button1 {
+  top: 40%;
+  right: 55%;
+}
+
+.button2 {
+  top: 0;
+  right: 70%;
+}
+
+.button3 {
+  
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
+
+.button4 {
+  top: 0;
+  right: 70%;
+}
+
+.button5 {
+  top: 40%;
+  left: 65%;
+}
