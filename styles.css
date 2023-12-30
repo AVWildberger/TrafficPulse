@@ -64,7 +64,19 @@ img {
   width: 20vw;
 }
 
-startpageButton {
+.start-page {
+  position: relative;
+  height: 325px;
+  height: 32.5rem;
+  width: 546px;
+  width: 54.6rem;
+  max-width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.start-page-button {
   font-family: 'Rowdies', sans-serif;
   font-size: larger;
 }
@@ -80,30 +92,25 @@ a {
 
 .button1 {
   top: 40%;
-  right: 55%;
+  right: 70%;
 }
 
 .button2 {
-  top: 0;
+  top: 50%;
   right: 70%;
 }
 
 .button3 {
-  
-
-  display: flex;
-  justify-content: center;
+  top: 60%;
   align-items: center;
-  text-align: center;
-  min-height: 100vh;
 }
 
 .button4 {
-  top: 0;
+  top: 50%;
   right: 70%;
 }
 
 .button5 {
   top: 40%;
-  left: 65%;
+  left: 70%;
 }
