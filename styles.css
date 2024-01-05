@@ -3,6 +3,8 @@
 body {
     margin: 0;
     font-family: 'Open Sans', sans-serif;
+    background-color: #560c1c;
+    color: #ff9e9e;
 }
 
 img {
@@ -14,8 +16,8 @@ img {
 /* Style the tab */
 .tab {
   float: left;
-  border: 1px solid #ccc;
-  background-color: #f1f1f1;
+  border: 1px solid #410915;
+  background-color: #490a18;
   width: 15vw;
   height: 100vh;
   position: fixed;
@@ -25,9 +27,9 @@ img {
 /* Style the buttons that are used to open the tab content */
 .tab button {
   display: block;
-  background-color: inherit;
-  color: black;
-  padding: 22px 16px;
+  background-color: #490a18;;
+  color: #ff9e9e;
+  padding: 1vw 1vw;
   width: 100%;
   border: none;
   outline: none;
@@ -41,7 +43,7 @@ img {
 
 /* Change background color of buttons on hover */
 .tab button:hover {
-  background-color: #ddd;
+  background-color: #3d0511;
 }
 
 /* Create an active/current "tab button" class */
@@ -49,80 +51,31 @@ img {
 /* Style the tab content */
 .tabcontent {
   float: left;
-  padding: 0vw 1vw 0vw 16vw;
+  margin: 0vw 1vw 0vw 16vw;
   border-left: none;
   display: none;
 }
 
 #start_page {
-  padding: 3vh;
+  margin: 3vh;
   display: flex;
   justify-content: center;
 }
 
-#start_page img{
-  width: 20vw;
-}
-
-.start-page {
-  position: relative;
-  height: 325px;
-  height: 32.5rem;
-  width: 546px;
-  width: 54.6rem;
-  max-width: 100%;
-  margin: 0 auto;
-  text-align: center;
-  vertical-align: middle;
-}
-
-.central-featured-lang .link-box {
-  display: block;
-  padding: 0;
-  text-decoration: none;
-  white-space: normal;
-}
-
-.start-page-button {
-  font-family: 'Rowdies', sans-serif;
-  font-size: larger;
-
-  display: block;
-}
-
-a {
-  cursor: pointer;
-}
-
-.start-page-button {
-  position: absolute;
-  width: 10rem;
-}
-
-.start-page-button:hover {
+.start_page_buttons a:hover {
   background-color: #c9c9c962;
 }
 
-.button1 {
-  top: 45%;
-  right: 75%;
-}
+@media only screen and (min-width: 280px) and (max-width: 767px) { }
+@media only screen and (min-width: 768px) and (max-width: 1365px) { }
 
-.button2 {
-  top: 63%;
-  right: 65%;
-}
-
-.button3 {
-  top: 81%;
-}
-
-.button4 {
-  top: 63%;
-  left: 65%;
-}
-
-.button5 {
-  top: 45%;
-  left: 75%;
+@media only screen and (min-width: 1366px) { 
+  
+  .start_page_buttons a {
+    margin: 1vw;
+    padding: 1vh 2vw;
+    background-color: #460614;
+    border-radius: 15px;
+    font-size: 2vh;
+  }
 }
