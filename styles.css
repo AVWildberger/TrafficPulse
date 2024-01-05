@@ -28,7 +28,7 @@ img {
 .tab button {
   display: block;
   background-color: #490a18;;
-  color: #ff9e9e;
+  color: #f5c0c0;
   padding: 1vw 1vw;
   width: 100%;
   border: none;
@@ -58,24 +58,41 @@ img {
 
 #start_page {
   margin: 3vh;
-  display: flex;
-  justify-content: center;
+  text-align: center;
 }
 
 .start_page_buttons a:hover {
   background-color: #c9c9c962;
 }
 
-@media only screen and (min-width: 280px) and (max-width: 767px) { }
-@media only screen and (min-width: 768px) and (max-width: 1365px) { }
+@media only screen and (min-width: 280px) and (max-width: 999px) { /*max 767*/
+  #start_page p {font-size: 5rem;}
 
-@media only screen and (min-width: 1366px) { 
+  .start_page_buttons a {
+    display: block;
+    width: 80vw;
+    padding: 5vw;
+    margin: 2vh 5vw;
+    background-color: #460614;
+    border-radius: 15px;
+    font-size: 2vh;
+    white-space: pre;
+  }
+}
+
+/* @media only screen and (min-width: 768px) and (max-width: 1365px) { } */
+
+@media only screen and (min-width: 1000px) {  /*min 1366*/
   
+  #start_page p {font-size: 10rem;}
+
   .start_page_buttons a {
     margin: 1vw;
     padding: 1vh 2vw;
     background-color: #460614;
     border-radius: 15px;
-    font-size: 2vh;
+    font-size: 2vh; 
+    transition: 0.3s;
+    cursor: pointer;
   }
 }
